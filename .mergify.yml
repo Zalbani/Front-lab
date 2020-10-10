@@ -3,7 +3,7 @@ pull_request_rules:
     conditions:
       - author~=^dependabot(|-preview)\[bot\]$
       - "status-success=welcome"
-      - "status-success=netlify/condescending-wescoff-06a3b4/deploy-preview"
+      - "status-success=netlify/boring-hermann-85ab61/deploy-preview"
     actions:
       merge:
         method: merge
@@ -11,7 +11,7 @@ pull_request_rules:
     conditions:
       - author=imgbot[bot]
       - "status-success=welcome"
-      - "status-success=netlify/condescending-wescoff-06a3b4/deploy-preview"
+      - "status-success=netlify/boring-hermann-85ab61/deploy-preview"
     actions:
       merge:
         method: merge
@@ -19,7 +19,7 @@ pull_request_rules:
     conditions:
       - author=snyk-bot[bot]
       - "status-success=welcome"
-      - "status-success=netlify/condescending-wescoff-06a3b4/deploy-preview"
+      - "status-success=netlify/boring-hermann-85ab61/deploy-preview"
     actions:
       merge:
         method: merge
@@ -33,7 +33,7 @@ pull_request_rules:
     conditions:
       - author=Zalbani
       - "status-success=welcome"
-      - "status-success=netlify/condescending-wescoff-06a3b4/deploy-preview"
+      - "status-success=netlify/boring-hermann-85ab61/deploy-preview"
       - "status-success=WIP"
     actions:
       merge:
@@ -42,7 +42,7 @@ pull_request_rules:
     conditions:
       - "#approved-reviews-by>=1"
       - "status-success=welcome"
-      - "status-success=netlify/condescending-wescoff-06a3b4/deploy-preview"
+      - "status-success=netlify/boring-hermann-85ab61/deploy-preview"
       - "status-success=WIP"
     actions:
       merge:
