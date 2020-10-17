@@ -21,11 +21,11 @@
 </template>
 <style lang="sass" scoped>
 $topDivHeight: 120px
-$hamburgerBoxWidth: 40px
-$hamburgerBoxHeight: 24px
-$hamburgerBoxPadding: 15px
+$hamburgerBoxWidth: 20px
+$hamburgerBoxHeight: 20px
+$hamburgerBoxPadding: 20px
 $hamburgerLineThickness: 2px
-$hamburgerLineSpaceBetween: 10px
+$hamburgerLineSpaceBetween: 6px
 $hamburgerLineBorderRadius: 4px
 
 $navAnimationDuration: 0.7s
@@ -49,8 +49,9 @@ $navAnimationTiming: ease-out
   margin: 0
   overflow: visible
   position: absolute
-  top: 0
-  right: calc((( #{$hamburgerBoxPadding} * 2 ) + #{$hamburgerBoxWidth}) * -1)
+  top: 10px
+  right: 0
+  //right: calc((( #{$hamburgerBoxPadding} * 2 ) + #{$hamburgerBoxWidth}) * -1)
   &:hover
     opacity: 0.7
   &.active
@@ -117,12 +118,14 @@ $navAnimationTiming: ease-out
 nav
   height: 100vh
   width: 200px
-  background-color: lightblue
   position: fixed
   transition-duration: $navAnimationDuration
   transition-timing-function: $navAnimationTiming
+  background-color: white
+  box-shadow: 0 0 2rem 0 rgba(136,152,170,.15)
+  border-color: rgba(0,0,0,.05)
   &.active
-    transform: translateX(-200px)
+    transform: translateX(-140px)
   .random
     width: 100%
     height: $topDivHeight
@@ -130,8 +133,8 @@ nav
     display: flex
     justify-content: center
     align-items: center
-    background-color: lightcoral
-    color: white
+    //background-color: lightcoral
+    color: red
   ul
     display: flex
     align-items: center
@@ -143,7 +146,7 @@ nav
       display: flex
       width: 100%
       padding: 20px 0
-      color: white
+      color: black
 </style>
 <script>
 export default {

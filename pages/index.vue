@@ -33,6 +33,7 @@ export default {}
 
 <style>
 .container {
+  background-color: #f8f9fe ;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
