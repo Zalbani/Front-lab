@@ -11,16 +11,41 @@
     </div>
     <ul>
       <li class="selected">
-        <span class="icon-dev-dot-to" /> hello
+        <nuxt-link to="/">
+          <span class="icon-dev-dot-to" /> hello
+        </nuxt-link>
       </li>
       <li>
-        <span class="icon-google" /> hello
+        <nuxt-link to="/">
+          <span class="icon-google" /> hello
+        </nuxt-link>
       </li>
       <li>
-        <span class="icon-docker" /> Coucou
+        <nuxt-link to="/">
+          <span class="icon-docker" /> Coucou
+        </nuxt-link>
       </li>
       <li>
-        <span class="icon-github" />hello
+        <nuxt-link to="/">
+          <span class="icon-github" />hello
+        </nuxt-link>
+      </li>
+      <hr>
+      <p>Documentation</p>
+      <li>
+        <a href="">
+          <span class="icon-github" />hello
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <span class="icon-github" />hello
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <span class="icon-github" />hello
+        </a>
       </li>
     </ul>
   </nav>
@@ -133,7 +158,7 @@ nav
   overflow: hidden
   &.active
     width: 60px
-    ul li, ul li.selected
+    ul li, ul li.selected, ul p
       color: white
   ul
     display: flex
@@ -146,7 +171,6 @@ nav
     li
       display: flex
       width: 100%
-      padding: 10px
       margin: 10px 0
       color: black
       position: relative
@@ -170,10 +194,32 @@ nav
           border-radius: 1px
           height: 37px
           background-color: red
-    span
-      color: black
-      padding: 1px 20px 0 2px
-      font-size: .9375rem
+    a
+      text-decoration: none
+      color: inherit
+      display: inherit
+      width: 100%
+      padding: 10px
+      span
+        color: black
+        padding: 1px 20px 0 2px
+        font-size: .9375rem
+    hr
+      border-top: 1px solid rgba(0,0,0,.1)
+      width: calc(100% - 28px)
+      height: 1px
+      color: #F0F0F5
+      margin: 10px 15px
+    p
+      color: #8898aa
+      text-align: left
+      text-transform: capitalize
+      width: 100%
+      padding-left: 14px
+      transition-duration: 0.5s
+      transition-timing-function: ease
+      &::first-letter
+        color: #8898aa
 </style>
 <script>
 export default {
