@@ -12,12 +12,12 @@
     <ul>
       <li class="selected">
         <nuxt-link to="/">
-          <span class="icon-dev-dot-to" /> hello
+          <span class="icon-dev-dot-to" /> Home
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/">
-          <span class="icon-google" /> hello
+        <nuxt-link to="/style-guide">
+          <span class="icon-google" /> Style guide
         </nuxt-link>
       </li>
       <li>
@@ -171,7 +171,7 @@ nav
     li
       display: flex
       width: 100%
-      margin: 10px 0
+      margin: 5px 0
       color: black
       position: relative
       background-color: white
@@ -179,6 +179,7 @@ nav
       transition-duration: 0.5s
       transition-timing-function: ease
       font-size: .9375rem
+      white-space: nowrap
       &:hover
         background-color: #F0F0F5
       &.selected
@@ -205,10 +206,10 @@ nav
         padding: 1px 20px 0 2px
         font-size: .9375rem
     hr
-      border-top: 1px solid rgba(0,0,0,.1)
+      border: none
       width: calc(100% - 28px)
       height: 1px
-      color: #F0F0F5
+      background-color: rgba(0,0,0,0.1)
       margin: 10px 15px
     p
       color: #8898aa

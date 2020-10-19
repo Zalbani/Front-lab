@@ -17,6 +17,9 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    'normalize-css/normalize.css',
+    '@/assets/bootstrap-grid.css',
+    '@/assets/general.css',
     '@/assets/icons/icons.css'
   ],
 
@@ -35,14 +38,15 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/style-resources'
   ],
-  axios: {},
   styleResources: {
-    scss: [
-      '@/assets/scss/variables.scss'
+    sass: [
+      '@/assets/variables.sass'
     ]
   },
+  axios: {},
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     extend (config, ctx) {

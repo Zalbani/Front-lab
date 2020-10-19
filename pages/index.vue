@@ -5,6 +5,9 @@
       <h1 class="title">
         my-front
       </h1>
+      <p class="oh">
+        Hello
+      </p>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -31,10 +34,9 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .container {
   background-color: #f8f9fe ;
-  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
