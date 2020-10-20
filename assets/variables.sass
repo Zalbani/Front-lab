@@ -17,18 +17,7 @@ $gray-800: #32325d !default
 $gray-900: #212529 !default
 $black:    #000 !default
 
-//$grays: () !default
-//$grays: map-merge((
-//  "100": $gray-100,
-//  "200": $gray-200,
-//  "300": $gray-300,
-//  "400": $gray-400,
-//  "500": $gray-500,
-//  "600": $gray-600,
-//  "700": $gray-700,
-//  "800": $gray-800,
-//  "900": $gray-900
-//), $grays)
+$grays: ("100": $gray-100, "200": $gray-200, "300": $gray-300, "400": $gray-400, "500": $gray-500, "600": $gray-600, "700": $gray-700, "800": $gray-800, "900": $gray-900)
 
 $blue:    #5e72e4 !default
 $indigo:  #5603ad !default
@@ -41,24 +30,7 @@ $green:   #2dce89 !default
 $teal:    #11cdef !default
 $cyan:    #2bffc6 !default
 
-$colors: () !default
-//$colors: map-merge((
-//  "blue":       $blue,
-//  "indigo":     $indigo,
-//  "purple":     $purple,
-//  "pink":       $pink,
-//  "red":        $red,
-//  "orange":     $orange,
-//  "yellow":     $yellow,
-//  "green":      $green,
-//  "teal":       $teal,
-//  "cyan":       $cyan,
-//  "white":      $white,
-//  "gray":       $gray-600,
-//  "light":      $gray-400,
-//  "lighter":    $gray-200,
-//  "gray-dark":  $gray-800
-//), $colors)
+$colors: ("blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray": $gray-600, "light": $gray-400, "lighter": $gray-200, "gray-dark": $gray-800)
 
 $default:       #172b4d !default
 $primary:       #5e72e4 !default
@@ -73,7 +45,6 @@ $darker:        darken($gray-900, 15%) !default
 
 $facebook:      #3b5999 !default
 $twitter:       #1da1f2 !default
-$google-plus:   #dd4b39 !default
 $instagram:     #e4405f !default
 $pinterest:     #bd081c !default
 $youtube:       #cd201f !default
@@ -81,33 +52,9 @@ $slack:         #3aaf85 !default
 $dribbble:      #ea4c89 !default
 $github:        #222222 !default
 
-//$theme-colors: () !default
-//$theme-colors: map-merge((
-//  "default":      $default,
-//  "primary":      $primary,
-//  "secondary":    $secondary,
-//  "success":      $success,
-//  "info":         $info,
-//  "warning":      $warning,
-//  "danger":       $danger,
-//  "white":        $white,
-//  "neutral":      $white,
-//  "dark":         $dark,
-//  "darker":       $darker
-//), $theme-colors)
+$theme-colors: ( "default": $default, "primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "white": $white, "neutral": $white, "dark": $dark, "darker": $darker)
 
-//$brand-colors: () !default
-//$brand-colors: map-merge((
-//  "facebook":     $facebook,
-//  "twitter":      $twitter,
-//  "google-plus":  $google-plus,
-//  "instagram":    $instagram,
-//  "pinterest":    $pinterest,
-//  "youtube":      $youtube,
-//  "slack":        $slack,
-//  "dribbble":     $dribbble,
-//  "github":       $github
-//), $brand-colors)
+$brand-colors: ( "facebook": $facebook, "twitter": $twitter, "instagram": $instagram, "pinterest": $pinterest, "youtube": $youtube, "slack": $slack, "dribbble": $dribbble, "github": $github)
 
 // Background
 
@@ -122,13 +69,7 @@ $link-hover-decoration:     none !default
 
 // Grid breakpoints
 
-//$grid-breakpoints: (
-//  xs: 0,
-//  sm: 576px,
-//  md: 768px,
-//  lg: 992px,
-//  xl: 1200px
-//)
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
 
 // Components
 
