@@ -228,7 +228,7 @@ nav {
           left: -10px;
           top: 0;
           border-radius: 1px;
-          height: 37px;
+          height: 40px;
           background-color: white;
           transition-duration: 0.4s;
           transition-timing-function: ease;
@@ -242,8 +242,8 @@ nav {
 
       span {
         color: black;
-        padding: 1px 20px 0 2px;
-        font-size: .9375rem;
+        padding: 3px 20px 0 1px;
+        font-size: 1rem;
       }
     }
 
