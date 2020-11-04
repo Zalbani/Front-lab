@@ -10,7 +10,7 @@
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js",
     "test": "jest",
-    "sass-watch": "sass --watch assets/general.sass:assets/general.css"
+    "sass-watch": "sass --watch assets/general.scss:assets/general.css assets/vutify-override.scss:assets/vutify-override.css"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",

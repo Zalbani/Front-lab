@@ -47,8 +47,8 @@ export default {
     'nuxt-clipboard2'
   ],
   styleResources: {
-    sass: [
-      '@/assets/variables.sass'
+    scss: [
+      '@/assets/variables.scss'
     ]
   },
   axios: {},
