@@ -1,17 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "icon-arduino",
-    "content": "e900",
-    "color": "#00979d"
-  },
-  {
-    "id": 1,
-    "name": "icon-azurepipelines",
-    "content": "e901",
-    "color": "#2560e0"
-  },
-  {
     "id": 2,
     "name": "icon-codecov",
     "content": "e902",
@@ -78,5 +66,40 @@
     "name": "icon-mozillafirefox",
     "content": "e90d",
     "color": "#ff7139"
+  },
+  {
+    "id": 14,
+    "name": "icon-file_copy",
+    "content": "e90e"
+  },
+  {
+    "id": 15,
+    "name": "icon-table_chart",
+    "content": "e900"
+  },
+  {
+    "id": 16,
+    "name": "icon-filter_center_focus",
+    "content": "e901"
+  },
+  {
+    "id": 17,
+    "name": "icon-home",
+    "content": "e90F"
+  },
+  {
+    "id": 18,
+    "name": "icon-search",
+    "content": "e910"
+  },
+  {
+    "id": 19,
+    "name": "icon-line_style",
+    "content": "e911"
+  },
+  {
+    "id": 20,
+    "name": "icon-emoji_symbols",
+    "content": "e912"
   }
 ]

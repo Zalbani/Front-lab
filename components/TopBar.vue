@@ -2,13 +2,16 @@
   <div>
     <div class="top-element">
       <form method="get">
-        <input
-          id="search"
-          type="text"
-          placeholder="search"
-          name="search"
-          class="search"
-        >
+        <div class="input-group">
+          <span class="icon-search" />
+          <input
+            id="search"
+            type="text"
+            placeholder="search"
+            name="search"
+            class="search"
+          >
+        </div>
       </form>
       <div class="profile">
         <img src="../static/images/user.jpg">
@@ -41,15 +44,24 @@
   form{
     flex-flow: row wrap;
     align-items: center;
-    input{
+    .input-group{
       width: 350px;
       transition: all 0.15s cubic-bezier(0.68, -0.55, 0.265, 1.55);
       border-color: rgba(0, 0, 0, 0.6);
       background-color: rgba(255, 255, 255, 0.9);
       border-radius: 2rem;
-      padding: 0.5rem 0.5rem;
       font-weight: 400;
+      display: flex;
+      flex-direction: row;
       align-items: center;
+      span{
+        color: black;
+        padding: 0.5rem 0.75rem;
+      }
+      input{
+        padding: 0.5rem 0.5rem;
+        width: 100%;
+      }
     }
   }
   .profile{

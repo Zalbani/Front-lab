@@ -1,5 +1,5 @@
 <template>
-  <div class="main col-md-8 offset-md-2">
+  <div class="col-md-8 offset-md-2">
     <div class="card">
       <div class="card-header">
         <h3>Heading</h3>
@@ -54,9 +54,6 @@ export default {
   align-items: center;
   text-align: left;
   display: inline-block;
-}
-.main {
-  margin-top: 20px;
 }
 .card {
   position: relative;
