@@ -14,11 +14,7 @@
         </div>
       </form>
     </div>
-    <div class="bottom-element">
-      <div class="breadcrum">
-        <p>Home > LA</p>
-      </div>
-    </div>
+    <div class="bottom-element" />
   </div>
 </template>
 <style lang="scss" scoped>
@@ -77,6 +73,7 @@
 }
 </style>
 <script>
+
 export default {
   data () {
     return {
