@@ -1,31 +1,14 @@
 <template>
   <div class="center-here">
-    <div>
-      <Logo />
-      <h1 class="title">
-        my-front
-      </h1>
-      <div class="links">
-        <nuxt-link
-          to="/admin"
-          class="button--green"
-        >
-          Admin Panel
-        </nuxt-link>
-        <nuxt-link
-          to="https://github.com/MyCalendApp/frontend"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </nuxt-link>
-      </div>
-    </div>
+    <h1 class="title">
+      Dashboard panel
+    </h1>
   </div>
 </template>
 
 <script>
 export default {
+  layout: 'admin',
   data () {
     return {
       title: 'Page index',

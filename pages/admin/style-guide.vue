@@ -29,6 +29,7 @@
 
 <script>
 export default {
+  layout: 'admin',
   data () {
     return {
       title: 'Page style guide',

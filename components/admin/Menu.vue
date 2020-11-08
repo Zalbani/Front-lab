@@ -15,18 +15,25 @@
           <span class="icon-home" /> Home
         </nuxt-link>
       </li>
+      <hr>
+      <p>Administration</p>
       <li>
-        <nuxt-link to="/style-guide">
+        <nuxt-link to="/admin">
+          <span class="icon-home" /> Dashboard
+        </nuxt-link>
+      </li>
+      <li>
+        <nuxt-link to="/admin/style-guide">
           <span class="icon-line_style" /> Style guide
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/icons">
+        <nuxt-link to="/admin/icons">
           <span class="icon-emoji_symbols" /> Icons
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/vutify-test">
+        <nuxt-link to="/admin/vutify-test">
           <span class="icon-table_chart" /> Data tables
         </nuxt-link>
       </li>
@@ -259,9 +266,6 @@ span {
               background-color: $primary!important;
               width: 4px;
             }
-            //span{
-            //  color: $primary;
-            //}
           }
         }
 

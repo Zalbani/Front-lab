@@ -19,9 +19,10 @@
   </div>
 </template>
 <script>
-import dataIcons from '~/static/data/icons.json'
+import dataIcons from 'static/data/icons.json'
 
 export default {
+  layout: 'admin',
   data () {
     return {
       title: 'Page liste des icons',
